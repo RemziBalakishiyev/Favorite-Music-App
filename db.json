@@ -1,0 +1,14 @@
+{
+  "musics": [
+    {
+      "id": 1,
+      "name": "Summer Time Sadness",
+      "full Name": "Lana Del Rey"
+    },
+    {
+      "id": 2,
+      "name": "Not Afraid",
+      "full Name": "Eminem"
+    }
+  ]
+}
