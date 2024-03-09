@@ -28,7 +28,7 @@ function MusicForm({ onAddNewData }) {
     e.preventDefault();
     onAddNewData(formMusic);
   };
-  console.log("a");
+ 
   return (
     <div className='card text-center p-0' style={{ width: "60%" }}>
       <div className='back-custom  card-header'>
