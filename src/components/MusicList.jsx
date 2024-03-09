@@ -1,20 +1,10 @@
 import React, { useEffect, useState } from "react";
 import MusicItem from "./MusicItem";
-function MusicList() {
-  const [musics, setMusic] = useState([]);
-  useEffect(() => {
-    const getMusicItems = async () => {
-      const response = await fetch("http://localhost:3000/musics");
-      const data = await response.json();
-      setMusic(data);
-    };
-    getMusicItems();
-  }, []);
-  console.log(musics);
+function MusicList({ musicItems }) {
   return (
     <ul className='list-group'>
-      {musics.map((music) => (
-        <MusicItem name={music.name} fullName={music.fullName} />
+      {musicItems.map((item) => (
+        <MusicItem name={item.name} singer={item.singer} point={item.point} />
       ))}
     </ul>
   );

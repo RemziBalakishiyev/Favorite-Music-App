@@ -3,12 +3,20 @@
     {
       "id": 1,
       "name": "Summer Time Sadness",
-      "full Name": "Lana Del Rey"
+      "singer": "Lana Del Rey",
+      "point": 2
     },
     {
       "id": 2,
       "name": "Not Afraid",
-      "full Name": "Eminem"
+      "singer": "Eminem",
+      "point": 1
+    },
+    {
+      "id": 2,
+      "name": "Not Afraid",
+      "singer": "Eminem",
+      "point": 1
     }
   ]
 }
